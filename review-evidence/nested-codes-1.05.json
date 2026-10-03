@@ -1,0 +1,1484 @@
+[
+  {
+    "id": "1.05:receipt:field:20",
+    "document": "receipt",
+    "page": 39,
+    "ordinal": "20",
+    "status": "match",
+    "tag_pdf": [
+      "1079"
+    ],
+    "tag_json": [
+      "1079"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      95.5,
+      138.7
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:21",
+    "document": "receipt",
+    "page": 39,
+    "ordinal": "21",
+    "status": "match",
+    "tag_pdf": [
+      "1023"
+    ],
+    "tag_json": [
+      "1023"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      138.7,
+      173.8
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:22",
+    "document": "receipt",
+    "page": 39,
+    "ordinal": "22",
+    "status": "match",
+    "tag_pdf": [
+      "1199"
+    ],
+    "tag_json": [
+      "1199"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      173.8,
+      205.8
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:23",
+    "document": "receipt",
+    "page": 39,
+    "ordinal": "23",
+    "status": "match",
+    "tag_pdf": [
+      "1043"
+    ],
+    "tag_json": [
+      "1043"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      205.8,
+      240.9
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:24",
+    "document": "receipt",
+    "page": 39,
+    "ordinal": "24",
+    "status": "match",
+    "tag_pdf": [
+      "1030"
+    ],
+    "tag_json": [
+      "1030"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      240.9,
+      272.9
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:25",
+    "document": "receipt",
+    "page": 39,
+    "ordinal": "25",
+    "status": "match",
+    "tag_pdf": [
+      "1214"
+    ],
+    "tag_json": [
+      "1214"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      272.9,
+      304.8
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:26",
+    "document": "receipt",
+    "page": 39,
+    "ordinal": "26",
+    "status": "match",
+    "tag_pdf": [
+      "1226"
+    ],
+    "tag_json": [
+      "1226"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      304.8,
+      339.9
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:27",
+    "document": "receipt",
+    "page": 39,
+    "ordinal": "27",
+    "status": "match",
+    "tag_pdf": [
+      "1212"
+    ],
+    "tag_json": [
+      "1212"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      339.9,
+      375.1
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:28",
+    "document": "receipt",
+    "page": 39,
+    "ordinal": "28",
+    "status": "match",
+    "tag_pdf": [
+      "1222"
+    ],
+    "tag_json": [
+      "1222"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      375.1,
+      410.2
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:29",
+    "document": "receipt",
+    "page": 39,
+    "ordinal": "29",
+    "status": "match",
+    "tag_pdf": [
+      "1197"
+    ],
+    "tag_json": [
+      "1197"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      410.2,
+      442.1
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:30",
+    "document": "receipt",
+    "page": 39,
+    "ordinal": "30",
+    "status": "match",
+    "tag_pdf": [
+      "1230"
+    ],
+    "tag_json": [
+      "1230"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      442.1,
+      470.9
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:31",
+    "document": "receipt",
+    "page": 39,
+    "ordinal": "31",
+    "status": "match",
+    "tag_pdf": [
+      "1231"
+    ],
+    "tag_json": [
+      "1231"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      470.9,
+      502.9
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:32",
+    "document": "receipt",
+    "page": 39,
+    "ordinal": "32",
+    "status": "match",
+    "tag_pdf": [
+      "1198"
+    ],
+    "tag_json": [
+      "1198"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      502.9,
+      538.1
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:33",
+    "document": "receipt",
+    "page": 39,
+    "ordinal": "33",
+    "status": "match",
+    "tag_pdf": [
+      "1229"
+    ],
+    "tag_json": [
+      "1229"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      538.1,
+      570.1
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:34",
+    "document": "receipt",
+    "page": 39,
+    "ordinal": "34",
+    "status": "match",
+    "tag_pdf": [
+      "1200"
+    ],
+    "tag_json": [
+      "1200"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      570.1,
+      602.0
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:35",
+    "document": "receipt",
+    "page": 39,
+    "ordinal": "35",
+    "status": "match",
+    "tag_pdf": [
+      "1191"
+    ],
+    "tag_json": [
+      "1191"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      602.0,
+      637.1
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:36",
+    "document": "receipt",
+    "page": 39,
+    "ordinal": "36",
+    "status": "match",
+    "tag_pdf": [
+      "1162"
+    ],
+    "tag_json": [
+      "1162"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      637.1,
+      669.1
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:37",
+    "document": "receipt",
+    "page": 39,
+    "ordinal": "37",
+    "status": "match",
+    "tag_pdf": [
+      "1223"
+    ],
+    "tag_json": [
+      "1223"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      669.1,
+      697.9
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:38",
+    "document": "receipt",
+    "page": 39,
+    "ordinal": "38",
+    "status": "match",
+    "tag_pdf": [
+      "1224"
+    ],
+    "tag_json": [
+      "1224"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      697.9,
+      733.0
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:39",
+    "document": "receipt",
+    "page": 39,
+    "ordinal": "39",
+    "status": "match",
+    "tag_pdf": [
+      "1075"
+    ],
+    "tag_json": [
+      "1075"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      733.0,
+      776.2
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:40",
+    "document": "receipt",
+    "page": 40,
+    "ordinal": "40",
+    "status": "match",
+    "tag_pdf": [
+      "1044"
+    ],
+    "tag_json": [
+      "1044"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      95.5,
+      141.9
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:41",
+    "document": "receipt",
+    "page": 40,
+    "ordinal": "41",
+    "status": "match",
+    "tag_pdf": [
+      "1073"
+    ],
+    "tag_json": [
+      "1073"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      141.9,
+      189.6
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:42",
+    "document": "receipt",
+    "page": 40,
+    "ordinal": "42",
+    "status": "match",
+    "tag_pdf": [
+      "1074"
+    ],
+    "tag_json": [
+      "1074"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      189.6,
+      240.6
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:43",
+    "document": "receipt",
+    "page": 40,
+    "ordinal": "43",
+    "status": "match",
+    "tag_pdf": [
+      "1026"
+    ],
+    "tag_json": [
+      "1026"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      240.6,
+      294.7
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:44",
+    "document": "receipt",
+    "page": 40,
+    "ordinal": "44",
+    "status": "match",
+    "tag_pdf": [
+      "1005"
+    ],
+    "tag_json": [
+      "1005"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      294.7,
+      345.6
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:45",
+    "document": "receipt",
+    "page": 40,
+    "ordinal": "45",
+    "status": "match",
+    "tag_pdf": [
+      "1016"
+    ],
+    "tag_json": [
+      "1016"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      345.6,
+      390.2
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:46",
+    "document": "receipt",
+    "page": 40,
+    "ordinal": "46",
+    "status": "match",
+    "tag_pdf": [
+      "1171"
+    ],
+    "tag_json": [
+      "1171"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      390.2,
+      431.7
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:47",
+    "document": "receipt",
+    "page": 40,
+    "ordinal": "47",
+    "status": "match",
+    "tag_pdf": [
+      "1225"
+    ],
+    "tag_json": [
+      "1225"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      431.7,
+      470.0
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:78",
+    "document": "receipt",
+    "page": 42,
+    "ordinal": "78",
+    "status": "match",
+    "tag_pdf": [
+      "1085"
+    ],
+    "tag_json": [
+      "1085"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      135.5,
+      186.4
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:79",
+    "document": "receipt",
+    "page": 42,
+    "ordinal": "79",
+    "status": "match",
+    "tag_pdf": [
+      "1086"
+    ],
+    "tag_json": [
+      "1086"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      186.4,
+      234.2
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:82",
+    "document": "receipt",
+    "page": 42,
+    "ordinal": "82",
+    "status": "match",
+    "tag_pdf": [
+      "1235"
+    ],
+    "tag_json": [
+      "1235"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      307.7,
+      344.8
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:83",
+    "document": "receipt",
+    "page": 42,
+    "ordinal": "83",
+    "status": "match",
+    "tag_pdf": [
+      "1082"
+    ],
+    "tag_json": [
+      "1082"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      344.8,
+      389.2
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:84",
+    "document": "receipt",
+    "page": 42,
+    "ordinal": "84",
+    "status": "match",
+    "tag_pdf": [
+      "1236"
+    ],
+    "tag_json": [
+      "1236"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      389.2,
+      438.7
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:85",
+    "document": "receipt",
+    "page": 42,
+    "ordinal": "85",
+    "status": "match",
+    "tag_pdf": [
+      "1237"
+    ],
+    "tag_json": [
+      "1237"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      438.7,
+      486.1
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:86",
+    "document": "receipt",
+    "page": 42,
+    "ordinal": "86",
+    "status": "match",
+    "tag_pdf": [
+      "1238"
+    ],
+    "tag_json": [
+      "1238"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      486.1,
+      526.4
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:88",
+    "document": "receipt",
+    "page": 42,
+    "ordinal": "88",
+    "status": "match",
+    "tag_pdf": [
+      "1119"
+    ],
+    "tag_json": [
+      "1119"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      561.6,
+      601.8
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:89",
+    "document": "receipt",
+    "page": 42,
+    "ordinal": "89",
+    "status": "match",
+    "tag_pdf": [
+      "1120"
+    ],
+    "tag_json": [
+      "1120"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      601.8,
+      649.4
+    ]
+  },
+  {
+    "id": "1.05:receipt:field:90",
+    "document": "receipt",
+    "page": 42,
+    "ordinal": "90",
+    "status": "match",
+    "tag_pdf": [
+      "1199"
+    ],
+    "tag_json": [
+      "1199"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      649.4,
+      696.6
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:16",
+    "document": "correction_receipt",
+    "page": 56,
+    "ordinal": "16",
+    "status": "match",
+    "tag_pdf": [
+      "1178"
+    ],
+    "tag_json": [
+      "1178"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      409.2,
+      457.0
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:17",
+    "document": "correction_receipt",
+    "page": 56,
+    "ordinal": "17",
+    "status": "match",
+    "tag_pdf": [
+      "1179"
+    ],
+    "tag_json": [
+      "1179"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      457.0,
+      504.7
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:44",
+    "document": "correction_receipt",
+    "page": 58,
+    "ordinal": "44",
+    "status": "match",
+    "tag_pdf": [
+      "1085"
+    ],
+    "tag_json": [
+      "1085"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      177.0,
+      227.9
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:45",
+    "document": "correction_receipt",
+    "page": 58,
+    "ordinal": "45",
+    "status": "match",
+    "tag_pdf": [
+      "1086"
+    ],
+    "tag_json": [
+      "1086"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      227.9,
+      273.3
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:56",
+    "document": "correction_receipt",
+    "page": 58,
+    "ordinal": "56",
+    "status": "match",
+    "tag_pdf": [
+      "1214"
+    ],
+    "tag_json": [
+      "1214"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      572.2,
+      598.7
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:57",
+    "document": "correction_receipt",
+    "page": 58,
+    "ordinal": "57",
+    "status": "match",
+    "tag_pdf": [
+      "1212"
+    ],
+    "tag_json": [
+      "1212"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      598.7,
+      630.6
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:58",
+    "document": "correction_receipt",
+    "page": 58,
+    "ordinal": "58",
+    "status": "match",
+    "tag_pdf": [
+      "1222"
+    ],
+    "tag_json": [
+      "1222"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      630.6,
+      665.7
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:59",
+    "document": "correction_receipt",
+    "page": 58,
+    "ordinal": "59",
+    "status": "match",
+    "tag_pdf": [
+      "1223"
+    ],
+    "tag_json": [
+      "1223"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      665.7,
+      697.7
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:60",
+    "document": "correction_receipt",
+    "page": 58,
+    "ordinal": "60",
+    "status": "match",
+    "tag_pdf": [
+      "1224"
+    ],
+    "tag_json": [
+      "1224"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      697.7,
+      729.6
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:61",
+    "document": "correction_receipt",
+    "page": 58,
+    "ordinal": "61",
+    "status": "match",
+    "tag_pdf": [
+      "1226"
+    ],
+    "tag_json": [
+      "1226"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      729.6,
+      762.4
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:62",
+    "document": "correction_receipt",
+    "page": 58,
+    "ordinal": "62",
+    "status": "match",
+    "tag_pdf": [
+      "1030"
+    ],
+    "tag_json": [
+      "1030"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      762.4,
+      800.1
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:63",
+    "document": "correction_receipt",
+    "page": 59,
+    "ordinal": "63",
+    "status": "match",
+    "tag_pdf": [
+      "1197"
+    ],
+    "tag_json": [
+      "1197"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      117.9,
+      155.6
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:64",
+    "document": "correction_receipt",
+    "page": 59,
+    "ordinal": "64",
+    "status": "match",
+    "tag_pdf": [
+      "1162"
+    ],
+    "tag_json": [
+      "1162"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      155.6,
+      186.0
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:65",
+    "document": "correction_receipt",
+    "page": 59,
+    "ordinal": "65",
+    "status": "match",
+    "tag_pdf": [
+      "1230"
+    ],
+    "tag_json": [
+      "1230"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      186.0,
+      221.8
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:66",
+    "document": "correction_receipt",
+    "page": 59,
+    "ordinal": "66",
+    "status": "match",
+    "tag_pdf": [
+      "1231"
+    ],
+    "tag_json": [
+      "1231"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      221.8,
+      266.4
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:67",
+    "document": "correction_receipt",
+    "page": 59,
+    "ordinal": "67",
+    "status": "match",
+    "tag_pdf": [
+      "1079"
+    ],
+    "tag_json": [
+      "1079"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      266.4,
+      314.3
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:68",
+    "document": "correction_receipt",
+    "page": 59,
+    "ordinal": "68",
+    "status": "match",
+    "tag_pdf": [
+      "1198"
+    ],
+    "tag_json": [
+      "1198"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      314.3,
+      358.9
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:69",
+    "document": "correction_receipt",
+    "page": 59,
+    "ordinal": "69",
+    "status": "match",
+    "tag_pdf": [
+      "1023"
+    ],
+    "tag_json": [
+      "1023"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      358.9,
+      397.2
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:70",
+    "document": "correction_receipt",
+    "page": 59,
+    "ordinal": "70",
+    "status": "match",
+    "tag_pdf": [
+      "1229"
+    ],
+    "tag_json": [
+      "1229"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      397.2,
+      432.3
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:71",
+    "document": "correction_receipt",
+    "page": 59,
+    "ordinal": "71",
+    "status": "match",
+    "tag_pdf": [
+      "1199"
+    ],
+    "tag_json": [
+      "1199"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      432.3,
+      467.4
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:72",
+    "document": "correction_receipt",
+    "page": 59,
+    "ordinal": "72",
+    "status": "match",
+    "tag_pdf": [
+      "1200"
+    ],
+    "tag_json": [
+      "1200"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      467.4,
+      505.7
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:73",
+    "document": "correction_receipt",
+    "page": 59,
+    "ordinal": "73",
+    "status": "match",
+    "tag_pdf": [
+      "1043"
+    ],
+    "tag_json": [
+      "1043"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      505.7,
+      553.5
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:74",
+    "document": "correction_receipt",
+    "page": 59,
+    "ordinal": "74",
+    "status": "match",
+    "tag_pdf": [
+      "1191"
+    ],
+    "tag_json": [
+      "1191"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      553.5,
+      604.4
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:75",
+    "document": "correction_receipt",
+    "page": 59,
+    "ordinal": "75",
+    "status": "match",
+    "tag_pdf": [
+      "1075"
+    ],
+    "tag_json": [
+      "1075"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      604.4,
+      649.1
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:76",
+    "document": "correction_receipt",
+    "page": 59,
+    "ordinal": "76",
+    "status": "match",
+    "tag_pdf": [
+      "1044"
+    ],
+    "tag_json": [
+      "1044"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      649.1,
+      690.5
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:77",
+    "document": "correction_receipt",
+    "page": 59,
+    "ordinal": "77",
+    "status": "match",
+    "tag_pdf": [
+      "1073"
+    ],
+    "tag_json": [
+      "1073"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      690.5,
+      731.9
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:78",
+    "document": "correction_receipt",
+    "page": 59,
+    "ordinal": "78",
+    "status": "match",
+    "tag_pdf": [
+      "1074"
+    ],
+    "tag_json": [
+      "1074"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      731.9,
+      775.1
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:79",
+    "document": "correction_receipt",
+    "page": 60,
+    "ordinal": "79",
+    "status": "match",
+    "tag_pdf": [
+      "1026"
+    ],
+    "tag_json": [
+      "1026"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      89.1,
+      132.4
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:80",
+    "document": "correction_receipt",
+    "page": 60,
+    "ordinal": "80",
+    "status": "match",
+    "tag_pdf": [
+      "1005"
+    ],
+    "tag_json": [
+      "1005"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      132.4,
+      173.8
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:81",
+    "document": "correction_receipt",
+    "page": 60,
+    "ordinal": "81",
+    "status": "match",
+    "tag_pdf": [
+      "1016"
+    ],
+    "tag_json": [
+      "1016"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      173.8,
+      212.1
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:82",
+    "document": "correction_receipt",
+    "page": 60,
+    "ordinal": "82",
+    "status": "match",
+    "tag_pdf": [
+      "1171"
+    ],
+    "tag_json": [
+      "1171"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      212.1,
+      244.1
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:83",
+    "document": "correction_receipt",
+    "page": 60,
+    "ordinal": "83",
+    "status": "match",
+    "tag_pdf": [
+      "1225"
+    ],
+    "tag_json": [
+      "1225"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      244.1,
+      272.9
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:86",
+    "document": "correction_receipt",
+    "page": 60,
+    "ordinal": "86",
+    "status": "match",
+    "tag_pdf": [
+      "1235"
+    ],
+    "tag_json": [
+      "1235"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      352.6,
+      399.2
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:87",
+    "document": "correction_receipt",
+    "page": 60,
+    "ordinal": "87",
+    "status": "match",
+    "tag_pdf": [
+      "1082"
+    ],
+    "tag_json": [
+      "1082"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      399.2,
+      446.8
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:88",
+    "document": "correction_receipt",
+    "page": 60,
+    "ordinal": "88",
+    "status": "match",
+    "tag_pdf": [
+      "1236"
+    ],
+    "tag_json": [
+      "1236"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      446.8,
+      496.3
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:89",
+    "document": "correction_receipt",
+    "page": 60,
+    "ordinal": "89",
+    "status": "match",
+    "tag_pdf": [
+      "1237"
+    ],
+    "tag_json": [
+      "1237"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      496.3,
+      546.9
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:90",
+    "document": "correction_receipt",
+    "page": 60,
+    "ordinal": "90",
+    "status": "match",
+    "tag_pdf": [
+      "1238"
+    ],
+    "tag_json": [
+      "1238"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      546.9,
+      593.6
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:92",
+    "document": "correction_receipt",
+    "page": 60,
+    "ordinal": "92",
+    "status": "match",
+    "tag_pdf": [
+      "1119"
+    ],
+    "tag_json": [
+      "1119"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      628.7,
+      662.6
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:93",
+    "document": "correction_receipt",
+    "page": 60,
+    "ordinal": "93",
+    "status": "match",
+    "tag_pdf": [
+      "1120"
+    ],
+    "tag_json": [
+      "1120"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      662.6,
+      707.0
+    ]
+  },
+  {
+    "id": "1.05:correction_receipt:field:94",
+    "document": "correction_receipt",
+    "page": 60,
+    "ordinal": "94",
+    "status": "match",
+    "tag_pdf": [
+      "1199"
+    ],
+    "tag_json": [
+      "1199"
+    ],
+    "code_pdf": [],
+    "code_json": [],
+    "row_y": [
+      707.0,
+      754.3
+    ]
+  }
+]

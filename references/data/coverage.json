@@ -1,0 +1,288 @@
+{
+  "status": "structured_source_accounting_checked_not_semantic_certification",
+  "versions": [
+    {
+      "ffd_version": "1.05",
+      "pages": 151,
+      "unique_defined_tags": 110,
+      "reference_only_tags": 0,
+      "field_records": 334,
+      "source_numbered_row_fragments": 334,
+      "numbered_row_sequence_missing": 0,
+      "nested_field_records": 78,
+      "printed_ordinal_name_conflicts": 0,
+      "logical_source_row_records": 192,
+      "physical_row_classifications": {
+        "header_or_empty": 368,
+        "field": 334,
+        "field_continuation": 10,
+        "logical_rule": 192,
+        "rule_continuation": 8
+      },
+      "document_tables": {
+        "14": {
+          "source_numbered_row_fragments": 36,
+          "dataset_field_records": 36,
+          "first_page": 26,
+          "last_page_including_continuation": 28,
+          "last_ordinal": "36"
+        },
+        "16": {
+          "source_numbered_row_fragments": 37,
+          "dataset_field_records": 37,
+          "first_page": 30,
+          "last_page_including_continuation": 32,
+          "last_ordinal": "37"
+        },
+        "18": {
+          "source_numbered_row_fragments": 21,
+          "dataset_field_records": 21,
+          "first_page": 33,
+          "last_page_including_continuation": 35,
+          "last_ordinal": "21"
+        },
+        "20": {
+          "source_numbered_row_fragments": 17,
+          "dataset_field_records": 17,
+          "first_page": 35,
+          "last_page_including_continuation": 37,
+          "last_ordinal": "17"
+        },
+        "22": {
+          "source_numbered_row_fragments": 90,
+          "dataset_field_records": 90,
+          "first_page": 38,
+          "last_page_including_continuation": 43,
+          "last_ordinal": "90"
+        },
+        "24": {
+          "source_numbered_row_fragments": 94,
+          "dataset_field_records": 94,
+          "first_page": 55,
+          "last_page_including_continuation": 61,
+          "last_ordinal": "94"
+        },
+        "26": {
+          "source_numbered_row_fragments": 24,
+          "dataset_field_records": 24,
+          "first_page": 75,
+          "last_page_including_continuation": 77,
+          "last_ordinal": "24"
+        },
+        "28": {
+          "source_numbered_row_fragments": 15,
+          "dataset_field_records": 15,
+          "first_page": 78,
+          "last_page_including_continuation": 79,
+          "last_ordinal": "15"
+        }
+      },
+      "structural_issues": [],
+      "source_row_accounting_pass": true,
+      "formalization": {
+        "logical_rules": 192,
+        "condition_syntax_parsed": 102,
+        "check_syntax_parsed": 36,
+        "both_syntax_parsed": 27,
+        "semantically_approved_logical_rules": 0,
+        "executable_logical_rules": 0,
+        "format_constraint_records": 249
+      },
+      "unresolved_count": 570,
+      "semantic_readiness": "BLOCKED_REQUIRES_REVIEW",
+      "limitations": [
+        "Rule-row continuation and merged-message/condition association require independent visual review.",
+        "Syntax ASTs and source-row accounting do not establish correct normative interpretation."
+      ]
+    },
+    {
+      "ffd_version": "1.1",
+      "pages": 195,
+      "unique_defined_tags": 138,
+      "reference_only_tags": 1,
+      "field_records": 829,
+      "source_numbered_row_fragments": 829,
+      "numbered_row_sequence_missing": 0,
+      "nested_field_records": 565,
+      "printed_ordinal_name_conflicts": 0,
+      "logical_source_row_records": 198,
+      "physical_row_classifications": {
+        "header_or_empty": 514,
+        "field": 829,
+        "field_continuation": 13,
+        "logical_rule": 198,
+        "rule_continuation": 2
+      },
+      "document_tables": {
+        "14": {
+          "source_numbered_row_fragments": 36,
+          "dataset_field_records": 36,
+          "first_page": 25,
+          "last_page_including_continuation": 28,
+          "last_ordinal": "36"
+        },
+        "16": {
+          "source_numbered_row_fragments": 129,
+          "dataset_field_records": 129,
+          "first_page": 29,
+          "last_page_including_continuation": 39,
+          "last_ordinal": "38.6.5.7"
+        },
+        "18": {
+          "source_numbered_row_fragments": 22,
+          "dataset_field_records": 22,
+          "first_page": 41,
+          "last_page_including_continuation": 43,
+          "last_ordinal": "22"
+        },
+        "20": {
+          "source_numbered_row_fragments": 143,
+          "dataset_field_records": 143,
+          "first_page": 44,
+          "last_page_including_continuation": 55,
+          "last_ordinal": "19.5.7"
+        },
+        "22": {
+          "source_numbered_row_fragments": 90,
+          "dataset_field_records": 90,
+          "first_page": 56,
+          "last_page_including_continuation": 62,
+          "last_ordinal": "52.1.2"
+        },
+        "24": {
+          "source_numbered_row_fragments": 94,
+          "dataset_field_records": 94,
+          "first_page": 77,
+          "last_page_including_continuation": 83,
+          "last_ordinal": "54.1.2"
+        },
+        "26": {
+          "source_numbered_row_fragments": 208,
+          "dataset_field_records": 208,
+          "first_page": 98,
+          "last_page_including_continuation": 114,
+          "last_ordinal": "27"
+        },
+        "28": {
+          "source_numbered_row_fragments": 107,
+          "dataset_field_records": 107,
+          "first_page": 115,
+          "last_page_including_continuation": 125,
+          "last_ordinal": "16"
+        }
+      },
+      "structural_issues": [],
+      "source_row_accounting_pass": true,
+      "formalization": {
+        "logical_rules": 198,
+        "condition_syntax_parsed": 104,
+        "check_syntax_parsed": 45,
+        "both_syntax_parsed": 39,
+        "semantically_approved_logical_rules": 0,
+        "executable_logical_rules": 0,
+        "format_constraint_records": 652
+      },
+      "unresolved_count": 1073,
+      "semantic_readiness": "BLOCKED_REQUIRES_REVIEW",
+      "limitations": [
+        "Rule-row continuation and merged-message/condition association require independent visual review.",
+        "Syntax ASTs and source-row accounting do not establish correct normative interpretation."
+      ]
+    },
+    {
+      "ffd_version": "1.2",
+      "pages": 222,
+      "unique_defined_tags": 185,
+      "reference_only_tags": 1,
+      "field_records": 903,
+      "source_numbered_row_fragments": 903,
+      "numbered_row_sequence_missing": 0,
+      "nested_field_records": 650,
+      "printed_ordinal_name_conflicts": 14,
+      "logical_source_row_records": 180,
+      "physical_row_classifications": {
+        "header_or_empty": 869,
+        "field": 903,
+        "logical_rule": 180,
+        "field_continuation": 6,
+        "rule_continuation": 6
+      },
+      "document_tables": {
+        "14": {
+          "source_numbered_row_fragments": 31,
+          "dataset_field_records": 31,
+          "first_page": 25,
+          "last_page_including_continuation": 28,
+          "last_ordinal": "31"
+        },
+        "16": {
+          "source_numbered_row_fragments": 124,
+          "dataset_field_records": 124,
+          "first_page": 29,
+          "last_page_including_continuation": 40,
+          "last_ordinal": "33.6.5.7"
+        },
+        "18": {
+          "source_numbered_row_fragments": 24,
+          "dataset_field_records": 24,
+          "first_page": 41,
+          "last_page_including_continuation": 43,
+          "last_ordinal": "24"
+        },
+        "20": {
+          "source_numbered_row_fragments": 147,
+          "dataset_field_records": 147,
+          "first_page": 44,
+          "last_page_including_continuation": 57,
+          "last_ordinal": "23.5.7"
+        },
+        "22": {
+          "source_numbered_row_fragments": 125,
+          "dataset_field_records": 125,
+          "first_page": 57,
+          "last_page_including_continuation": 66,
+          "last_ordinal": "45.1.2"
+        },
+        "24": {
+          "source_numbered_row_fragments": 129,
+          "dataset_field_records": 129,
+          "first_page": 85,
+          "last_page_including_continuation": 96,
+          "last_ordinal": "47.1.2"
+        },
+        "26": {
+          "source_numbered_row_fragments": 214,
+          "dataset_field_records": 214,
+          "first_page": 114,
+          "last_page_including_continuation": 135,
+          "last_ordinal": "32"
+        },
+        "28": {
+          "source_numbered_row_fragments": 109,
+          "dataset_field_records": 109,
+          "first_page": 136,
+          "last_page_including_continuation": 147,
+          "last_ordinal": "18"
+        }
+      },
+      "structural_issues": [],
+      "source_row_accounting_pass": true,
+      "formalization": {
+        "logical_rules": 180,
+        "condition_syntax_parsed": 107,
+        "check_syntax_parsed": 48,
+        "both_syntax_parsed": 42,
+        "semantically_approved_logical_rules": 0,
+        "executable_logical_rules": 0,
+        "format_constraint_records": 736
+      },
+      "unresolved_count": 1176,
+      "semantic_readiness": "BLOCKED_REQUIRES_REVIEW",
+      "limitations": [
+        "Rule-row continuation and merged-message/condition association require independent visual review.",
+        "Syntax ASTs and source-row accounting do not establish correct normative interpretation."
+      ]
+    }
+  ],
+  "production_ready": false
+}

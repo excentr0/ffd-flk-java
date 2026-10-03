@@ -1,0 +1,225 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FFD contextual source extraction with non-approved AST candidates",
+  "type": "object",
+  "required": [
+    "ffd_version",
+    "protocol_document_version",
+    "source",
+    "target",
+    "extraction_status",
+    "pages",
+    "tags",
+    "documents",
+    "rules",
+    "unresolved",
+    "source_refs",
+    "row_ledger",
+    "readiness",
+    "formalization_summary"
+  ],
+  "properties": {
+    "ffd_version": {
+      "enum": [
+        "1.05",
+        "1.1",
+        "1.2"
+      ]
+    },
+    "protocol_document_version": {
+      "type": "string"
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "file",
+        "sha256"
+      ],
+      "properties": {
+        "file": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        }
+      }
+    },
+    "target": {
+      "const": "KKT_TO_OFD"
+    },
+    "extraction_status": {
+      "type": "string"
+    },
+    "pages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "page_number",
+          "text",
+          "tables"
+        ],
+        "properties": {
+          "page_number": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "text": {
+            "type": "string"
+          },
+          "tables": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "table_index",
+                "raw_cells"
+              ],
+              "properties": {
+                "table_index": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "bbox": {
+                  "type": "array",
+                  "prefixItems": [
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "type": "number"
+                    },
+                    {
+                      "type": "number"
+                    }
+                  ],
+                  "minItems": 4,
+                  "maxItems": 4
+                },
+                "raw_cells": {
+                  "type": "array"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["tag", "occurrences", "definition_status", "rule_references"],
+        "properties": {
+          "tag": {"type": "integer", "minimum": 1000, "maximum": 65535},
+          "occurrences": {"type": "array"},
+          "rule_references": {"type": "array", "items": {"type": "string"}},
+          "definition_status": {"enum": ["defined_in_document_format_table", "reference_only_not_a_field_definition"]}
+        },
+        "allOf": [{
+          "if": {"properties": {"definition_status": {"const": "defined_in_document_format_table"}}},
+          "then": {"properties": {"occurrences": {"minItems": 1}}},
+          "else": {"properties": {"occurrences": {"maxItems": 0}, "rule_references": {"minItems": 1}}}
+        }]
+      }
+    },
+    "documents": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "required": ["id", "format_table", "logic_table", "incoming_flk_exempt", "fields"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "incoming_flk_exempt": {"type": "boolean"},
+          "fields": {
+            "type": "array", "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["id", "source_ordinal", "source_refs", "raw", "field_kind", "tag_numbers", "tag_path", "parent_field_id", "type", "cardinality"],
+              "properties": {
+                "id": {"type": "string", "minLength": 1},
+                "source_ordinal": {"type": "string", "pattern": "^[0-9]+(?:\\.[0-9]+)*$"},
+                "source_refs": {"type": "array", "minItems": 1},
+                "field_kind": {"enum": ["tlv", "document_discriminator", "non_tlv_source_field", "unresolved"]},
+                "tag_numbers": {"type": "array", "items": {"type": "integer", "minimum": 1, "maximum": 65535}},
+                "tag_path": {"type": "array", "items": {"type": "integer", "minimum": 1, "maximum": 65535}},
+                "parent_field_id": {"type": ["string", "null"]},
+                "raw": {"type": "object", "required": ["ordinal", "tag_number", "name", "description", "obligation", "type", "allowed_values", "byte_length", "flk_codes"], "additionalProperties": {"type": "string"}}
+              },
+              "allOf": [{
+                "if": {"properties": {"field_kind": {"const": "document_discriminator"}}},
+                "then": {"properties": {"tag_numbers": {"maxItems": 0}, "tag_path": {"maxItems": 0}}}
+              }, {
+                "if": {"properties": {"field_kind": {"const": "tlv"}}},
+                "then": {"properties": {"tag_numbers": {"minItems": 1}, "tag_path": {"minItems": 1}}}
+              }]
+            }
+          }
+        }
+      }
+    },
+    "rules": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "document", "kind", "scope", "source_refs", "formalization", "semantic_review"],
+        "properties": {
+          "kind": {"enum": ["field_format", "logical_source_rule"]},
+          "source_refs": {"type": "array", "minItems": 1},
+          "formalization": {"type": "object", "required": ["status", "ast"]},
+          "semantic_review": {"type": "object", "required": ["status", "reason"]}
+        }
+      }
+    },
+    "row_ledger": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["table_number", "source_ref", "raw_cells", "logical_cells", "classification"],
+        "properties": {
+          "table_number": {"type": "integer", "minimum": 14, "maximum": 29},
+          "classification": {"enum": ["header_or_empty", "field", "field_continuation", "logical_rule", "rule_continuation", "non_rule_fragment", "unclassified"]},
+          "raw_cells": {"type": "array", "items": {"type": ["string", "null"]}},
+          "logical_cells": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "readiness": {
+      "type": "object", "required": ["production_ready", "reason"],
+      "properties": {"production_ready": {"const": false}, "reason": {"type": "string", "minLength": 1}}
+    },
+    "formalization_summary": {"type": "object", "required": ["logical_rules", "both_syntax_parsed", "semantically_approved_logical_rules", "executable_logical_rules"]},
+    "unresolved": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "reason"
+        ],
+        "properties": {
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_ref": {
+            "type": "object"
+          },
+          "resolution_needed": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "source_refs": {
+      "type": "array"
+    }
+  }
+}
